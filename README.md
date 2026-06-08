@@ -120,6 +120,9 @@ These objectives conflict. The deepest random forest maximises AUC but produces 
 | ~40% impurity sets a performance ceiling | Same marker profile, different decisions — partly demographics, partly information outside the 8-marker representation. Consistent with observed F1 ≈ 0.79 |
 | Leakage was caught and corrected | First RF run hit AUC 0.995 — engine dummies were silently included in features. Customer-only rerun is the reported baseline |
 
+**Note on data privacy**
+The plots in this repository are generated from synthetic data and do not reflect the actual findings from the real dataset. To preserve confidentiality, the true results cannot be shared publicly. This repository is intended to showcase the analytical approach, methodology, and plot types produced during the exploratory phase of the project.
+
 ---
 
 ## Methodological notes
